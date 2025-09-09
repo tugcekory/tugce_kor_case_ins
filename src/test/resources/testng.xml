@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="UI Suite" parallel="false">
+    <listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
+
+    <test name="Career Page Tests">
+        <classes>
+            <class name="tests.CareerPageTests"/>
+        </classes>
+    </test>
+</suite>
